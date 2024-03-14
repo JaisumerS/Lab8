@@ -12,9 +12,7 @@ export const fetchProducts = async () => {
     }
 };
 
-// Fetches details for a single product 
-
-by its ID
+// Fetches details for a single product by its ID
 export const getProductDetails = async (id) => {
     const url = `${BASE_URL}/${id}`;
     try {
